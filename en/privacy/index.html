@@ -1,9 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Neo Stride privacy-policy draft status."><link rel="stylesheet" href="../../assets/css/site.css"><link rel="alternate" hreflang="zh-Hant" href="../../privacy/"><title>Privacy — Neo Stride</title></head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Neo Stride privacy policy: data processing, Apple Health, retention, deletion, and contact information.">
+    <link rel="stylesheet" href="../../assets/css/site.css">
+    <link rel="alternate" hreflang="zh-Hant" href="../../privacy/">
+    <title>Privacy Policy — Neo Stride</title>
+  </head>
   <body>
-    <header class="site-header"><div class="shell nav"><a class="brand" href="../">Neo Stride</a><nav class="nav-links" aria-label="Main navigation"><a href="../">Product</a><a aria-current="page" href="./">Privacy</a><a href="../support/">Support</a><a href="../../privacy/" lang="zh-Hant">繁體中文</a></nav></div></header>
-    <main><section class="page-hero"><div class="shell"><p class="eyebrow">Privacy</p><h1>The privacy policy is under review.</h1><p class="lede">Before public beta, Neo Stride will complete its formal privacy policy, support contact details, and App Store privacy disclosures.</p></div></section><section class="section"><div class="shell prose"><div class="notice"><strong>This is a pre-review status page, not a formal privacy policy. It must not be used as an App Store or TestFlight privacy URL.</strong></div><h2>Current product principles</h2><ul><li>Neo Stride reads running-training and recovery data only after the runner grants Apple Health permission.</li><li>It does not read routes or location data, and it never represents a scheduled workout as a completed run.</li><li>Coaching data can be exported or deleted in the app.</li><li>This site has no analytics, tracking, advertising cookies, or third-party embeds.</li></ul><h2>Before publication</h2><p>The final policy will name the data controller and contact, include an effective date, explain data processing and retention, describe Apple Health data, and explain privacy rights and choices.</p><p><a href="../privacy-choices/">See currently available privacy choices</a></p></div></section></main>
-    <footer class="site-footer"><div class="shell footer-inner"><span>© 2026 Neo Stride</span><nav class="footer-links"><a href="../">Product</a><a href="../privacy-choices/">Privacy choices</a><a href="../support/">Support</a></nav></div></footer>
+    <header class="site-header"><div class="shell nav">
+      <a class="brand" href="../">Neo Stride</a>
+      <nav class="nav-links" aria-label="Main navigation"><a href="../">Product</a><a aria-current="page" href="./">Privacy</a><a href="../privacy-choices/">Privacy choices</a><a href="../support/">Support</a><a href="../../privacy/" lang="zh-Hant">繁體中文</a></nav>
+    </div></header>
+    <main>
+      <section class="page-hero"><div class="shell">
+        <p class="eyebrow">Privacy</p>
+        <h1>Neo Stride Privacy Policy</h1>
+        <p class="lede">Effective <time datetime="2026-09-06">September 6, 2026</time>｜Region: Taiwan</p>
+      </div></section>
+      <section class="section"><div class="shell prose">
+        <p>Neo Stride is operated by James Chen. It helps runners plan, complete, and review their training and does not provide medical diagnosis, treatment, or injury prediction. The first Beta wave is only available to people aged 18 or older.</p>
+
+        <h2>Data we process</h2>
+        <p>To provide account, plan, and coaching features, Neo Stride processes account data such as email address, display name, sign-in provider, and account identifiers; runner-entered goals and structured preferences; training plans and plan-adjustment records; and structured post-run feedback submitted by the runner, including RPE, completion or modification status, whether pain changed running form, and optional lifestyle constraints.</p>
+        <p>If you authorize Apple Health, Neo Stride reads the running and health or fitness data needed for its features, such as running workouts, running distance, heart rate, sleep, resting heart rate, heart-rate variability, step count, and active energy. It uses this data to show completed runs, create conservative training summaries, and explain training and recovery. When data is incomplete, the app responds conservatively instead of claiming false precision.</p>
+
+        <h2>Minimum data we store</h2>
+        <p>Neo Stride does not store GPS routes, location points, second-by-second heart rate, raw HealthKit sample payloads, or raw Apple Watch data. For a confirmed run, account-owned cloud records may include derived distance, duration, pace, and the elapsed, cumulative, and optional average-heart-rate values for each completed kilometre. Apple Watch scheduling stores only minimal schedule status and time information, and does not store vendor tokens, OAuth secrets, or raw health data.</p>
+
+        <h2>How we use data</h2>
+        <p>We use data only to provide and improve the account, training-plan, run-review, conservative safety-adjustment, and device-scheduling features you directly use. We do not sell HealthKit, health, or fitness data, or use it for advertising, marketing, or behavior-based data mining.</p>
+
+        <h2>Sharing, processing locations, and service providers</h2>
+        <p>The app uses Apple sign-in, Apple Health, and Apple Workout features, and uses Supabase as the backend for account-owned data. James Chen operates the service from Taiwan. Supabase's primary project data is processed in Seoul, South Korea, and Supabase-authorized subprocessors may process necessary data in other countries for hosting, security, support, communications, monitoring, and related service delivery.</p>
+        <p>Neo Stride does not currently send runner data to a generative-AI provider. A natural-language provider's presence on Supabase's vendor list does not mean Neo Stride has enabled that service or directly sends runner data to it. Any future production generative-AI use requires separately approved consent, minimization, retention, export, and deletion controls. We do not sell or disclose health or fitness data to other third parties unless required by law or you explicitly consent.</p>
+
+        <h2>Your controls</h2>
+        <p>You can manage Apple Health access in Apple Health and iOS settings. You can cancel a confirmed Apple Watch schedule; cancellation does not mark the workout complete.</p>
+        <p>Neo Stride provides JSON export and in-app deletion for the approved coaching-history scope. That scope includes plan versions, coaching decisions, plan adjustments, structured post-run feedback, confirmed session outcomes, and derived kilometre splits. It does not delete the account, sign-in data, current plan, source Apple Health data, or Apple Watch schedules.</p>
+        <p>To request access, a copy, supplementation, correction, cessation of processing, deletion of personal data, or complete account deletion, email <a href="mailto:chaoyu0513@gmail.com">chaoyu0513@gmail.com</a> from the email used for the account so the requester can be verified. We decide access or copy requests within 15 days and supplementation, correction, cessation, or deletion requests within 30 days. When necessary, each period may be extended once as permitted by law, and we will provide the reason in writing.</p>
+
+        <h2>Retention and deletion</h2>
+        <p>Account-owned records are retained while the account participates in the Beta. After a complete account-deletion request is received and verified, we delete the sign-in account and account-owned service data within 30 days. If the first-wave Beta ends without a successor service, remaining first-wave accounts are deleted within 90 days.</p>
+        <p>The first wave has no operator-held off-site backup of tester personal data. Supabase's Free plan does not guarantee automatic backups. If a provider holds a recovery-only copy, it is not used for normal product operation and completed deletion requests are reapplied after any restore. If a Free plan project is paused for low activity, the provider may retain a restorable snapshot for up to one year.</p>
+        <p>We retain only the minimum data required by law, needed for an unresolved security or abuse incident, or needed to establish, exercise, or defend a legal claim; it is restricted from normal product use and deleted when the reason ends.</p>
+
+        <h2>Security and contact</h2>
+        <p>Neo Stride restricts account-owned data through authentication and account ownership. To ask about this policy, exercise a data right, request account deletion, or report a privacy concern, contact <a href="mailto:chaoyu0513@gmail.com">chaoyu0513@gmail.com</a>. The request periods above apply.</p>
+      </div></section>
+    </main>
+    <footer class="site-footer"><div class="shell footer-inner"><span>© 2026 Neo Stride</span><nav class="footer-links" aria-label="Footer navigation"><a href="../">Product</a><a href="../privacy-choices/">Privacy choices</a><a href="../support/">Support</a><a href="../../privacy/" lang="zh-Hant">繁體中文</a></nav></div></footer>
   </body>
 </html>
