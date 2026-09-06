@@ -1,9 +1,55 @@
 <!doctype html>
 <html lang="zh-Hant">
-  <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Neo Stride 隱私政策草案狀態。"><link rel="stylesheet" href="../assets/css/site.css"><link rel="alternate" hreflang="en" href="../en/privacy/"><title>隱私 — Neo Stride</title></head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Neo Stride 隱私政策：資料處理、Apple 健康、保存、刪除與聯絡方式。">
+    <link rel="stylesheet" href="../assets/css/site.css">
+    <link rel="alternate" hreflang="en" href="../en/privacy/">
+    <title>隱私政策 — Neo Stride</title>
+  </head>
   <body>
-    <header class="site-header"><div class="shell nav"><a class="brand" href="../zh-Hant/">Neo Stride</a><nav class="nav-links" aria-label="主要導覽"><a href="../zh-Hant/">產品</a><a aria-current="page" href="./">隱私</a><a href="../support/">支援</a><a href="../en/privacy/" lang="en">English</a></nav></div></header>
-    <main><section class="page-hero"><div class="shell"><p class="eyebrow">Privacy</p><h1>隱私政策正在審核。</h1><p class="lede">Neo Stride 在公開 beta 前，會先完成正式的隱私政策、支援聯絡方式與 App Store 隱私揭露。</p></div></section><section class="section"><div class="shell prose"><div class="notice"><strong>這是審核前狀態頁，不是正式隱私政策，也不能作為 App Store 或 TestFlight 的隱私權 URL。</strong></div><h2>目前的產品原則</h2><ul><li>只在跑者於 Apple 健康中授權後，讀取與跑步訓練和恢復相關的資料。</li><li>不讀取路線或位置資料，也不會將課表完成狀態偽裝為已完成的跑步。</li><li>教練資料可在 App 內匯出或刪除。</li><li>本網站沒有分析、追蹤、廣告 Cookie 或第三方嵌入內容。</li></ul><h2>正式公開前會完成</h2><p>正式版本會提供生效日期、資料控制者與聯絡方式、資料處理與保存說明、Apple 健康資料說明、資料主體權利，以及適用的隱私選擇方式。</p><p><a href="../privacy-choices/">查看目前可用的隱私選擇</a></p></div></section></main>
-    <footer class="site-footer"><div class="shell footer-inner"><span>© 2026 Neo Stride</span><nav class="footer-links"><a href="../zh-Hant/">產品</a><a href="../privacy-choices/">隱私選擇</a><a href="../support/">支援</a></nav></div></footer>
+    <header class="site-header"><div class="shell nav">
+      <a class="brand" href="../zh-Hant/">Neo Stride</a>
+      <nav class="nav-links" aria-label="主要導覽"><a href="../zh-Hant/">產品</a><a aria-current="page" href="./">隱私</a><a href="../privacy-choices/">隱私選擇</a><a href="../support/">支援</a><a href="../en/privacy/" lang="en">English</a></nav>
+    </div></header>
+    <main>
+      <section class="page-hero"><div class="shell">
+        <p class="eyebrow">Privacy</p>
+        <h1>Neo Stride 隱私政策</h1>
+        <p class="lede">生效日：<time datetime="2026-09-06">2026 年 9 月 6 日</time>｜適用地區：台灣</p>
+      </div></section>
+      <section class="section"><div class="shell prose">
+        <p>Neo Stride 由 James Chen 營運，是協助跑者規劃、執行與回顧訓練的 app，不提供醫療診斷、治療或受傷預測。第一波 Beta 僅供年滿 18 歲者使用。</p>
+
+        <h2>我們處理的資料</h2>
+        <p>為提供帳號、課表與教練功能，Neo Stride 會處理帳號資料（email、顯示名稱、登入供應商與帳號識別資料）、跑者輸入的訓練目標與結構化偏好、課表與課表調整紀錄，以及跑者主動提交的結構化跑後回饋（RPE、完成／修改狀態、疼痛是否改變跑姿與可選生活限制）。</p>
+        <p>若你授權 Apple 健康，Neo Stride 會讀取執行功能所需的跑步活動與健康／健身資料，例如跑步訓練、跑步距離、心率、睡眠、靜息心率、心率變異度、步數與活動能量。這些資料用於顯示已完成跑步、建立保守訓練摘要，以及協助說明訓練與恢復；資料不足時 app 會採保守方式，而不會假裝有精確判斷。</p>
+
+        <h2>我們保存的最小資料</h2>
+        <p>Neo Stride 不保存 GPS 路線、位置點、逐秒心率、HealthKit 原始 sample payload 或 Apple Watch 原始資料。對已確認的跑步，帳號自有雲端資料可包含衍生的距離、時間、配速，以及每個完成整公里的分段時間、累積時間與可選平均心率。Apple Watch 排程只保存最小的排程狀態與時間資訊，不保存 vendor token、OAuth secret 或原始健康資料。</p>
+
+        <h2>資料用途</h2>
+        <p>我們只將資料用於提供與改善你直接使用的帳號、訓練計畫、跑步回顧、保守安全調整與裝置排程功能。我們不出售 HealthKit、健康或健身資料，也不會將這些資料用於廣告、行銷或以使用行為為基礎的資料探勘。</p>
+
+        <h2>分享、處理地與服務提供者</h2>
+        <p>目前的 app 使用 Apple 的登入、Apple 健康與 Apple Workout 功能，並使用 Supabase 提供帳號自有資料的後端服務。James Chen 從台灣營運本服務；Supabase 的主要專案資料在韓國首爾處理，Supabase 授權的子處理者也可能在其他國家基於託管、安全、支援、通訊、監控與相關服務目的處理必要資料。</p>
+        <p>Neo Stride 目前不會將跑者的資料送往生成式 AI 供應商；Supabase 的供應商清單包含自然語言處理供應商，並不代表 Neo Stride 已啟用或直接傳送跑者資料給該服務。若 Neo Stride 未來啟用生成式 AI，必須先取得另行核准的同意、資料最小化、保存、匯出與刪除流程。除非法律要求或你明確同意，我們不會向其他第三方出售或揭露健康／健身資料。</p>
+
+        <h2>你的控制權</h2>
+        <p>你可以在 Apple 健康與 iOS 系統設定中管理 Apple 健康存取權。你可以取消已確認的 Apple Watch 課表；取消不會將訓練標為完成。</p>
+        <p>Neo Stride 提供已核准教練歷史的 JSON 匯出與介面化刪除；目前此範圍包含課表版本、教練決策、課表調整、結構化跑後回饋、已確認 session outcome 與每公里衍生摘要。它不刪除帳號、登入資料、目前課表、原始 Apple 健康資料或 Apple Watch 排程。</p>
+        <p>若要查詢、取得複本、補充、更正、停止處理或刪除個人資料，或要求完整刪除帳號，請由帳號使用的 email 寄信至 <a href="mailto:chaoyu0513@gmail.com">chaoyu0513@gmail.com</a>，以便驗證請求人。查詢或複本請求會在 15 日內決定；補充、更正、停止或刪除請求會在 30 日內決定。必要時得依法各延長一次，並以書面說明原因。</p>
+
+        <h2>保存與刪除</h2>
+        <p>帳號自有紀錄會在帳號參與 Beta 期間保留。收到並驗證完整帳號刪除請求後，我們會在 30 日內刪除登入帳號及帳號自有服務資料；第一波 Beta 結束且沒有後續服務時，剩餘的第一波帳號會在 90 日內刪除。</p>
+        <p>首波不建立由營運者持有的異地個資備份。目前 Supabase Free plan 不保證自動備份；若供應商持有僅供復原使用的副本，該副本不作一般產品使用，完成的刪除請求會在任何復原後重新套用。Free plan 專案若因低活動暫停，供應商可能保留可復原快照最多一年。</p>
+        <p>只有在法律要求、處理尚未結案的安全或濫用事件，或建立、行使、抗辯法律請求所必需時，我們才會限制性保留最少資料，並在例外原因消失後刪除。</p>
+
+        <h2>安全與聯絡方式</h2>
+        <p>Neo Stride 將帳號自有資料以認證與帳號所有權限制存取。若要詢問本政策、行使資料權利、提出帳號刪除請求或回報隱私疑慮，請聯絡 <a href="mailto:chaoyu0513@gmail.com">chaoyu0513@gmail.com</a>。請求時限如「你的控制權」所述。</p>
+      </div></section>
+    </main>
+    <footer class="site-footer"><div class="shell footer-inner"><span>© 2026 Neo Stride</span><nav class="footer-links" aria-label="頁尾導覽"><a href="../zh-Hant/">產品</a><a href="../privacy-choices/">隱私選擇</a><a href="../support/">支援</a><a href="../en/privacy/" lang="en">English</a></nav></div></footer>
   </body>
 </html>
